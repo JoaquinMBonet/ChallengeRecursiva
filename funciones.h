@@ -2,8 +2,8 @@
 #define FUNCIONES_H_INCLUDED
 
 ///PROTOTIPOS
-void metodoBurbura(int temporal, string temporalNombre[30], string temporalEquipo[40], int *edad, int tam, string nombre[][30], string equipo[][40]);
-void ordenarDeMenorAMayor(int *edad, int tam, string nombre[][30], string equipo[][40]);
+void metodoBurburaDeMenorAMayor(int temporal, string temporalNombre[30], string temporalEquipo[40], int *edad, int tam, string nombre[][30], string equipo[][40]);
+void listar(int *edad, int tam, string nombre[][30], string equipo[][40]);
 void ordenarAlfabeticamente(int tam, string temporalNombre[30], string nombres[][30]);
 void Cuenta(string* nombres, int tam, string* temporal[30], string* uno[30]);
 void Elimina(string* nombres, int tam, string* temporal[30]);
